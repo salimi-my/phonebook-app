@@ -1,7 +1,7 @@
 <main role="main" class="container">
 	<div class="row justify-content-center">
 		<div class="col-xs-12 col-sm-10 col-lg-7">
-			<h2 class="mt-5 mb-5 text-center"><i class="far fa-address-book text-primary"></i> Phonebook App</h2>
+			<h2 class="mt-5 mb-5 text-center"><i class="fas fa-address-book text-primary"></i> Phonebook App</h2>
 			<div class="card mb-3">
 				<div class="card-body">
 					<table id="contact_table" class="table table-hover">
