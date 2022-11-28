@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 06, 2021 at 08:31 PM
+-- Generation Time: Nov 28, 2022 at 10:45 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.14
 
@@ -38,8 +38,17 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`id`, `name`, `phone`) VALUES
-(1, 'Mohamad Salimi', '0195200905'),
-(4, 'Khairul Anwar', '0194740392');
+(14, 'Mohamad Salimi', '0123456789'),
+(15, 'Khairul Anwar', '0198765432'),
+(16, 'Fahmi Zamri', '0123498765'),
+(17, 'Norafinah Jaafar', '0125458745'),
+(18, 'Siti Maimunah', '0196541236'),
+(19, 'Sarip Dol', '0185411236'),
+(20, 'Qistina Ramli', '0195677236'),
+(21, 'Zafrul Salleh', '0137894126'),
+(22, 'Sumaiyah Yusri', '0146536987'),
+(23, 'Wafri Junaidi', '0173655320'),
+(24, 'Daud Tamri', '0136244506');
 
 --
 -- Indexes for dumped tables
@@ -59,7 +68,7 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
