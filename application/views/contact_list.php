@@ -3,8 +3,8 @@
 		<div class="col-xs-12 col-sm-10 col-lg-7">
 			<h2 class="mt-5 mb-5 text-center"><i class="fas fa-address-book text-primary"></i> Phonebook App</h2>
 			<div class="card mb-3">
-				<div class="card-body">
-					<table id="contact_table" class="table table-hover">
+				<div class="card-body table-responsive">
+					<table id="contact_table" class="table table-hover table-striped">
 						<thead>
 							<th class="text-left"><b>No.</b></th>
 							<th class="text-left">Name</th>
@@ -12,7 +12,9 @@
 							<th class="text-center">Action</th>
 						</thead>
 						<tbody>
-							<?php $count = 0; foreach($contact as $row){ $count++; ?>
+							<?php $count = 0;
+							foreach ($contact as $row) {
+								$count++; ?>
 								<tr>
 									<td class="text-left"><b><?php echo $count ?></b></td>
 									<td class="text-left"><?php echo $row['name'] ?></td>
@@ -65,8 +67,8 @@
 							<i class="fas fa-check-circle"></i> Updated
 						</button>
 						<button id="update_cancel" type="button" class="btn btn-light">Cancel</button>
-					</div>
 				</div>
+			</div>
 			</form>
 		</div>
 	</div>
@@ -104,8 +106,8 @@
 							<i class="fas fa-check-circle"></i> Saved
 						</button>
 						<button id="update_cancel2" type="button" class="btn btn-light">Cancel</button>
-					</div>
 				</div>
+			</div>
 			</form>
 		</div>
 	</div>
