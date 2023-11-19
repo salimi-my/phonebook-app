@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=5.0' name='viewport' />
@@ -35,4 +36,5 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" />
 </head>
+
 <body>
